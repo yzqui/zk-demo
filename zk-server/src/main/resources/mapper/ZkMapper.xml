@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zk.mapper.ZkMapper">
+    <!--    <select id="selectZKById" resultType="com.neo.pojo.ZkNode">-->
+    <!--        select id,key,value from ZkNode where id = #{id};-->
+    <!--    </select>-->
+    <insert id="insertZK" parameterType="com.zk.pojo.ZkNode">
+        insert into config(config_name ,config_value) values (#{configName},#{configValue});
+    </insert>
+    <update id="updateZK" parameterType="com.zk.pojo.ZkNode">
+        update config set config_value=#{configValue} where config_name = #{configName};
+    </update>
+    <delete id="deleteZK" parameterType="string">
+        delete from config where config_name = #{configName};
+    </delete>
+</mapper>

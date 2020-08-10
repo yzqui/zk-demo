@@ -1,0 +1,3 @@
+# Project exclude paths
+/zk-client/target/
+/zk-server/target/

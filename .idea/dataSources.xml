@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="test@localhost" uuid="d58e0e70-4f89-414d-a994-742383bc526e">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/test</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="jdbc:mysql://localhost:3306/zk?useUnicode=true;characterEncoding=UTF-8" uuid="2c351539-e8df-4456-aff7-d0ed1c75b7a8">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/zk?useUnicode=true;characterEncoding=UTF-8</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="zk@localhost" uuid="ddb0a12a-cf3b-4f45-b1c4-b0913ac623cf">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/zk</jdbc-url>
+    </data-source>
+  </component>
+</project>

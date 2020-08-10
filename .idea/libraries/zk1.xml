@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="zk1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/zk.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
